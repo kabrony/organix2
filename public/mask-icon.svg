@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#00ff88" flood-opacity="0.5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="#18181b"/>
+  <g filter="url(#neonGlow)">
+    <path d="M256 128C192 128 144 176 144 240C144 304 192 352 256 352C320 352 368 304 368 240C368 176 320 128 256 128ZM256 320C209.6 320 176 286.4 176 240C176 193.6 209.6 160 256 160C302.4 160 336 193.6 336 240C336 286.4 302.4 320 256 320Z" fill="#00ff88"/>
+    <path d="M256 192C227.2 192 208 211.2 208 240C208 268.8 227.2 288 256 288C284.8 288 304 268.8 304 240C304 211.2 284.8 192 256 192ZM256 272C236.8 272 224 259.2 224 240C224 220.8 236.8 208 256 208C275.2 208 288 220.8 288 240C288 259.2 275.2 272 256 272Z" fill="#00ff88"/>
+    <path d="M256 224C244.8 224 236 232.8 236 244C236 255.2 244.8 264 256 264C267.2 264 276 255.2 276 244C276 232.8 267.2 224 256 224Z" fill="#00ff88"/>
+  </g>
+</svg>
